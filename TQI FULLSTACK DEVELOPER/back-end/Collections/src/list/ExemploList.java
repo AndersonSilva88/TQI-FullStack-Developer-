@@ -1,6 +1,7 @@
 package list;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 public class ExemploList {
@@ -16,6 +17,9 @@ public class ExemploList {
             System.out.println("nota: "+ i + " - "+ notas.get(i));
         }
         System.out.println(notas);
+        System.out.println(Collections.max(notas));
+        System.out.println(Collections.min(notas));
+
 
     }
 }
